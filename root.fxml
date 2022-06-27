@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:controller ="hrinfo.Controller" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <Pane layoutX="-22.0" layoutY="-15.0" prefHeight="287.0" prefWidth="387.0">
+         <children>
+            <Button fx:id="btn1" layoutX="58.0" layoutY="238.0" mnemonicParsing="false" text="조회" />
+            <Button fx:id="btn2" layoutX="140.0" layoutY="238.0" mnemonicParsing="false" text="생성" onAction="#sendData" />
+            <Button fx:id="btn3" layoutX="217.0" layoutY="238.0" mnemonicParsing="false" text="수정" />
+            <Button fx:id="btn4" layoutX="297.0" layoutY="238.0" mnemonicParsing="false" text="삭제" />
+            <TextField fx:id="tf1" layoutX="194.0" layoutY="73.0" />
+            <TextField fx:id="tf2" layoutX="194.0" layoutY="121.0" />
+            <TextField fx:id="tf3" layoutX="194.0" layoutY="172.0" />
+            <Label layoutX="94.0" layoutY="77.0" text="학생 번호" />
+            <Label layoutX="94.0" layoutY="125.0" text="학생 이름" />
+            <Label layoutX="82.0" layoutY="176.0" text="학생 전화번호" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
